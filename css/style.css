@@ -23,49 +23,58 @@
 
 /*  */
 
-header{
-    background-color: lightblue;
-}
-
 .nav-box{
-    padding: 1em 0 0.4em 0;
+    padding-top: 1em;
+    background-color: #255EE9;
+
 }
 
 .header-nav{
-    align-items: center;
-    background-color: orange;
+    align-items: center; 
 }
 
-.logo{
-    width: 20%;
+.nav-logo{
+    min-width: 20%;
     padding: 10px;
 }
 
-.links{
-    padding: 10px;
-    width: 60%;
-    text-align: center;
+.nav-links{
+    min-width: 60%;
+    justify-content: space-around;
+    font-size: 1.5em;
+    color: white;
 }
 
-.login{
-    width: 20%;
-    padding: 10px;
-    text-align: right;
+li {
+    list-style: none;
+    padding: 0px 15px;
 }
 
-.bg-blue{
-    background-color: darkblue;
-    height: 450px;
+.nav-login{
+    min-width: 15%;
+    justify-content: flex-end;
+}
+
+.button{
+    background-color: white;
+    padding: 10px 15px;
+    border: 0 solid white;
+    border-radius: 30px;
+}
+
+.jumbotron-container{
     margin-top: 1em;
     align-items: center;
 }
 
-.purple-box{
-    background-color: #EF82ED;
-    min-height: 350px;
-    width: 700px;
+.jumbotron{
+    height: 100%;
+    width: 100%;
 }
 
+/* .img-jumbo{
+    height: 50%;
+} */
 
 .bg-grey{
     background-color: grey; 
