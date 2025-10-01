@@ -143,10 +143,21 @@ li {
     margin-bottom: 20px;
 }
 
-.green-box{
-    background-color: green;
-    min-height: 700px;
-    width: 100%;
+
+.centered-txt{
+    text-align: center;
+}
+.smaller-title{
+    font-size: 1.5em;
+    padding: 40px;
+    
+}
+
+.star-bg{
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 550px;
+    background-image: url(../img/stars.svg);
 }
 
 footer{
