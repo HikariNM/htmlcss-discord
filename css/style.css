@@ -17,6 +17,10 @@ body{
     flex-direction: column;
 }
 
+.flex-center{
+    justify-content: center;
+}
+
 .boxed{
     max-width: 1000px;
     margin: 0 auto;
@@ -141,7 +145,6 @@ li {
     align-items: end;
 }
 
-
 .title{
     font-size: 2em;
     margin-bottom: 20px;
@@ -165,6 +168,10 @@ li {
     background-image: url(../img/stars.svg);
 }
 
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+
 footer{
     background-color: #23272A;
     min-height: 500px;
@@ -177,19 +184,47 @@ footer{
 
 .left-footer{
     min-width: 30%;
-    background-color: coral;
+    /* background-color: coral; */
     min-height: 400px;
+}
+
+.footer-title{
+    color: #7389DC;
+    padding: 15px 0 15px 0;
+}
+.footer-mini-title{
+    color: #7389DC;
+    margin-top: 15px;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.img-flag{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.txt-small{
+    font-size: 14px;
+    padding: 5px 0 5px;
 }
 
 .right-footer{
     min-width: 70%;
-    background-color: aquamarine;
     min-height: 400px;
 }
 
 .footer-column{
     min-width: 25%;
     border-color: white;
+}
+
+.footer-links{
+    flex-direction: column;
+    padding-bottom: 20px;
+    
 }
 
 .line{
