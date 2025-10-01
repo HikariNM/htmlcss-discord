@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.boxed{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.border{
+    border: 2px dotted black;
+}
+
+.section-row{
+    padding: 2em;
+}
+
+/*  */
+
+header{
+    background-color: lightblue;
+}
+
+.nav-box{
+    padding: 1em 0 0.4em 0;
+}
+
+.header-nav{
+    align-items: center;
+    background-color: orange;
+}
+
+.logo{
+    width: 20%;
+    padding: 10px;
+}
+
+.links{
+    padding: 10px;
+    width: 60%;
+    text-align: center;
+}
+
+.login{
+    width: 20%;
+    padding: 10px;
+    text-align: right;
+}
+
+.bg-blue{
+    background-color: darkblue;
+    height: 450px;
+    margin-top: 1em;
+    align-items: center;
+}
+
+.purple-box{
+    background-color: #EF82ED;
+    min-height: 350px;
+    width: 700px;
+}
+
+
+.bg-grey{
+    background-color: grey; 
+}
+
+.large-column{
+    background-color: aqua;
+    width: 60%;
+    min-height: 400px;
+    
+}
+
+.small-column{
+    background-color: bisque;
+    width: 40%;
+    min-height: 400px;
+}
+
+.green-box{
+    background-color: green;
+    min-height: 700px;
+    width: 100%;
+}
+
+footer{
+    background-color: #23272A;
+    min-height: 500px;
+}
+
+.top-footer{
+    align-items: center;
+    padding: 10px 0;
+}
+
+.left-footer{
+    min-width: 30%;
+    background-color: coral;
+    min-height: 400px;
+}
+
+.right-footer{
+    min-width: 70%;
+    background-color: aquamarine;
+    min-height: 400px;
+}
+
+.footer-column{
+    min-width: 25%;
+    border-color: white;
+}
+
+.line{
+    border: 1px solid grey;
+    margin-top: 10px;
+}
+
+.bottom-footer{
+    background-color: bisque;
+    min-height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.footer-logo{
+    background-color: coral;
+    padding: 2px 12px;
+}
+
+.footer-button{
+    background-color: coral;
+    padding: 2px 12px;
+
+}
