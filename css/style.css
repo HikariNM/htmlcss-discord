@@ -58,6 +58,15 @@ body{
     background-color: #8EA1E2;
 }
 
+li {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 /* INZIO HEADER */
 
 .nav-box{
@@ -81,10 +90,7 @@ body{
 
 }
 
-li {
-    list-style: none;
-    padding: 0px 15px;
-}
+
 
 .nav-login{
     min-width: 15%;
@@ -123,6 +129,15 @@ li {
 
 /* INIZIO MAIN */
 
+.wave-up{
+    width: 100%;
+}
+
+.wave-down {
+    transform: rotate(180deg);
+    width: 100%;
+    display: block;
+}
 .bg-grey{
     background-color: #F6F6F6; 
 }
