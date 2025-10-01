@@ -50,6 +50,10 @@ body{
     background-color: #212A2A;
 }
 
+.blue-button{
+    background-color: #8EA1E2;
+}
+
 /* INZIO HEADER */
 
 .nav-box{
@@ -147,6 +151,7 @@ li {
 .centered-txt{
     text-align: center;
 }
+
 .smaller-title{
     font-size: 1.5em;
     padding: 40px;
