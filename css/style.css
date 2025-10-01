@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    
+}
 
 .flex{
     display: flex;
@@ -13,8 +16,18 @@
     margin: 0 auto;
 }
 
+.button{
+    padding: 10px 15px;
+    border-radius: 30px;
+    border: 0;
+}
+
 .border{
     border: 2px dotted black;
+}
+
+.txt-white{
+    color: white;
 }
 
 .section-row{
@@ -42,7 +55,6 @@
     min-width: 60%;
     justify-content: space-around;
     font-size: 1.5em;
-    color: white;
 }
 
 li {
@@ -55,39 +67,59 @@ li {
     justify-content: flex-end;
 }
 
-.button{
+.login-button{
     background-color: white;
-    padding: 10px 15px;
-    border: 0 solid white;
-    border-radius: 30px;
+}
+
+.header-txt-container{
+    min-height: 500px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .jumbotron-container{
     margin-top: 1em;
-    align-items: center;
+    background-image: url(../img/jumbo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
 }
 
-.jumbotron{
-    height: 100%;
-    width: 100%;
+.main-title{
+    font-size: 4em;
+    margin-bottom: 40px;
 }
 
-/* .img-jumbo{
-    height: 50%;
-} */
+.main-paragraph{
+    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.bigger-button{
+    padding: 15px 20px;
+    margin: 10px;
+    font-weight: 600;
+}
+
+.open-brw{
+    background-color: #212A2A;
+
+}
 
 .bg-grey{
     background-color: grey; 
 }
 
-.large-column{
+.image-column{
     background-color: aqua;
     width: 60%;
     min-height: 400px;
     
 }
 
-.small-column{
+.text-column{
     background-color: bisque;
     width: 40%;
     min-height: 400px;
