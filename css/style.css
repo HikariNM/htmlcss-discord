@@ -184,8 +184,7 @@ footer{
 
 .left-footer{
     min-width: 30%;
-    /* background-color: coral; */
-    min-height: 400px;
+    height: 330px;
 }
 
 .footer-title{
@@ -213,7 +212,6 @@ footer{
 
 .right-footer{
     min-width: 70%;
-    min-height: 400px;
 }
 
 .footer-column{
@@ -233,7 +231,6 @@ footer{
 }
 
 .bottom-footer{
-    background-color: bisque;
     min-height: 50px;
     align-items: center;
     justify-content: space-between;
@@ -241,12 +238,6 @@ footer{
 }
 
 .footer-logo{
-    background-color: coral;
-    padding: 2px 12px;
-}
 
-.footer-button{
-    background-color: coral;
     padding: 2px 12px;
-
 }
